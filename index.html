@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad — AI Product Builder & Software Engineer</title>
+  
+  <!-- SEO Meta Description -->
+  <meta name="description" content="Muhammad's personal portfolio. Software engineering student and solo founder building AI-native tools under the Merkey brand for African markets.">
+  <meta name="keywords" content="Muhammad, Merkey, AI Products Nigeria, Software Engineer Kano, Skyline University Nigeria, MerkeyDocs, NaijaFact, SIWES Blue Sapphire Hub">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SECTION 1 — NAVIGATION (Fixed Sticky) -->
+  <header class="header" id="main-header">
+    <div class="header-container">
+      <a href="#home" class="logo">MUHAMMAD</a>
+      
+      <!-- Mobile Hamburger menu toggle -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="main-nav">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION 2 — HERO -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <span class="hero-eyebrow">MERKEY BRAND · NIGERIA</span>
+        <h1 class="hero-headline">
+          <div class="line-white">I Build</div>
+          <div class="line-lime">AI-Powered Products</div>
+          <div class="line-white">for Africa.</div>
+        </h1>
+        <p class="hero-subheadline">
+          Software engineering student and solo founder building AI-native tools under the Merkey brand. I orchestrate AI systems to solve real Nigerian market problems — from document generation to fake news detection.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">VIEW MY WORK &rarr;</a>
+          <a href="#contact" class="btn btn-secondary">GET IN TOUCH</a>
+        </div>
+      </div>
+
+      <!-- Bouncing Scroll Down Indicator -->
+      <div class="scroll-indicator" id="scroll-indicator">
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+    </section>
+
+    <!-- SECTION 3 — CREDIBILITY STRIP -->
+    <section class="credibility-strip">
+      <div class="credibility-container">
+        <span class="credibility-label">BUILT WITH & TRAINED AT</span>
+        <span class="credibility-logo">Anthropic / Claude</span>
+        <span class="credibility-logo">Baba Ahmad University Nigeria</span>
+        <span class="credibility-logo">Blue Sapphire Hub</span>
+        <span class="credibility-logo">IBM AI</span>
+        <span class="credibility-logo">FastAPI</span>
+        <span class="credibility-logo">Next.js</span>
+      </div>
+    </section>
+
+    <!-- SECTION 4 — ABOUT -->
+    <section id="about" class="about-section">
+      <div class="about-grid">
+        
+        <!-- Left column: Profile Photo Frame with CSS brackets -->
+        <div class="about-photo-container">
+          <!-- TODO: Replace with real profile photo src -->
+          <img id="profile-photo" src="images/profile.jpg" alt="Muhammad">
+        </div>
+
+        <!-- Right column: Bio & Stats -->
+        <div class="about-content">
+          <span class="eyebrow">ABOUT ME</span>
+          <h2 class="section-heading">Engineering the Future, One Product at a Time</h2>
+          <div class="about-body">
+            <p>
+              I'm a software engineering student at Baba Ahmad University Nigeria and a solo founder building products under the Merkey brand. My passion lies at the intersection of AI orchestration and software systems — applying cutting-edge architectures to resolve pressing African market needs.
+            </p>
+            <p>
+              Having completed SIWES training at Blue Sapphire Hub Kano, I gained hands-on industry experience building scalable web solutions. I'm currently pursuing the IBM Generative AI Engineering Professional Certificate to sharpen my engineering depth.
+            </p>
+          </div>
+
+          <!-- Stats Row -->
+          <div class="stats-row">
+            <div class="stat-item">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">Nigeria</span>
+              <span class="stat-label">First Focus</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">AI-Native</span>
+              <span class="stat-label">Builder</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">IBM AI</span>
+              <span class="stat-label">In Progress</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5 — SKILLS -->
+    <section id="skills" class="skills-section">
+      <div class="skills-container">
+        <span class="eyebrow">EXPERTISE</span>
+        <h2 class="section-heading">What I Work With</h2>
+
+        <div class="skills-grid">
+          
+          <!-- Column 1: AI & Orchestration -->
+          <div class="skills-card">
+            <div class="card-header">
+              <i class="fa-solid fa-brain"></i> AI & Orchestration
+            </div>
+            <div class="skills-wrapper">
+              <span class="skill-pill">Claude API</span>
+              <span class="skill-pill">LangGraph</span>
+              <span class="skill-pill">Deepgram</span>
+              <span class="skill-pill">ElevenLabs</span>
+              <span class="skill-pill">Prompt Engineering</span>
+              <span class="skill-pill">Multi-Agent Systems</span>
+            </div>
+          </div>
+
+          <!-- Column 2: Web Development -->
+          <div class="skills-card">
+            <div class="card-header">
+              <i class="fa-solid fa-code"></i> Web Development
+            </div>
+            <div class="skills-wrapper">
+              <span class="skill-pill">HTML</span>
+              <span class="skill-pill">CSS</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">React (Next.js)</span>
+              <span class="skill-pill">FastAPI</span>
+              <span class="skill-pill">Python</span>
+            </div>
+          </div>
+
+          <!-- Column 3: Tools & Infra -->
+          <div class="skills-card">
+            <div class="card-header">
+              <i class="fa-solid fa-server"></i> Tools & Infra
+            </div>
+            <div class="skills-wrapper">
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">Redis</span>
+              <span class="skill-pill">Supabase</span>
+              <span class="skill-pill">Firebase</span>
+              <span class="skill-pill">Vercel</span>
+              <span class="skill-pill">PM2</span>
+              <span class="skill-pill">Nginx</span>
+              <span class="skill-pill">Git</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6 — PROJECTS -->
+    <section id="projects" class="projects-section">
+      <div class="projects-container">
+        <span class="eyebrow">PORTFOLIO</span>
+        <h2 class="section-heading">Things I've Built</h2>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: MerkeyDocs -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="images/project-merkeydocs.png" alt="MerkeyDocs Screenshot">
+              <div class="project-image-fallback">MerkeyDocs</div>
+            </div>
+            <div class="project-body">
+              <div class="project-badge-row">
+                <span class="status-badge live">In Development</span>
+              </div>
+              <h3 class="project-title">MerkeyDocs</h3>
+              <p class="project-desc">
+                AI-powered document generation platform for Nigerian students. Auto-generates SIWES reports and Final Year Project documents with 32 department-specific seed profiles.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">AI</span>
+                <span class="project-tag">Next.js</span>
+                <span class="project-tag">Claude API</span>
+                <span class="project-tag">Nigeria</span>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="project-btn live">
+                View Project &rarr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: NaijaFact -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="images/project-naijaFact.png" alt="NaijaFact Screenshot">
+              <div class="project-image-fallback">NaijaFact</div>
+            </div>
+            <div class="project-body">
+              <div class="project-badge-row">
+                <span class="status-badge live">In Development</span>
+              </div>
+              <h3 class="project-title">NaijaFact</h3>
+              <p class="project-desc">
+                Fake news and misinformation detection tool built for the Nigerian social media context. Classifies articles and posts using ML.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">scikit-learn</span>
+                <span class="project-tag">Next.js</span>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="project-btn live">
+                View Project &rarr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Intelligent Receipt Analyzer -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="images/project-receipt.png" alt="Receipt Analyzer Screenshot">
+              <div class="project-image-fallback">Receipt Analyzer</div>
+            </div>
+            <div class="project-body">
+              <div class="project-badge-row">
+                <span class="status-badge live">Live</span>
+              </div>
+              <h3 class="project-title">Intelligent Receipt Analyzer</h3>
+              <p class="project-desc">
+                AI tool that reads and extracts structured data from receipt images — line items, totals, dates, and vendor info.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">AI</span>
+                <span class="project-tag">Python</span>
+                <span class="project-tag">OCR</span>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="project-btn live">
+                View Project &rarr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: Gadex Paints -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="images/project-gadex.png" alt="Gadex Paints Screenshot">
+              <div class="project-image-fallback">Gadex Paints</div>
+            </div>
+            <div class="project-body">
+              <div class="project-badge-row">
+                <span class="status-badge live">Live</span>
+              </div>
+              <h3 class="project-title">Gadex Paints</h3>
+              <p class="project-desc">
+                Live commercial website for a paints company. Frontend design and development for a real Nigerian business client.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+              </div>
+              <!-- TODO: Add live URL for Gadex Paints -->
+              <a href="https://gadexpaints.com" target="_blank" rel="noopener noreferrer" class="project-btn live">
+                View Project &rarr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5: TERRAE -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="images/project-terrae.png" alt="TERRAE Screenshot">
+              <div class="project-image-fallback">TERRAE</div>
+            </div>
+            <div class="project-body">
+              <div class="project-badge-row">
+                <span class="status-badge dev">In Development</span>
+              </div>
+              <h3 class="project-title">TERRAE</h3>
+              <p class="project-desc">
+                Editorial art gallery website with a Brutalist Avant-Garde aesthetic. Features procedural SVG artwork generation and an earthy terracotta palette.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">HTML</span>
+                <span class="project-tag">CSS</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">SVG</span>
+              </div>
+              <span class="project-btn dev">In Development</span>
+            </div>
+          </article>
+
+          <!-- Project 6: Trillion -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="images/project-trillion.png" alt="Trillion Screenshot">
+              <div class="project-image-fallback">Trillion</div>
+            </div>
+            <div class="project-body">
+              <div class="project-badge-row">
+                <span class="status-badge dev">In Development</span>
+              </div>
+              <h3 class="project-title">Trillion</h3>
+              <p class="project-desc">
+                Voice-first AI co-founder app with live read access to Stripe, GitHub, Gmail, and Calendar. Your personal AI operating system as a founder.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Claude API</span>
+                <span class="project-tag">Deepgram</span>
+                <span class="project-tag">ElevenLabs</span>
+                <span class="project-tag">FastAPI</span>
+              </div>
+              <span class="project-btn dev">In Development</span>
+            </div>
+          </article>
+
+          <!-- Project 7: Merkey Forge -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="images/project-merkeyforge.png" alt="Merkey Forge Screenshot">
+              <div class="project-image-fallback">Merkey Forge</div>
+            </div>
+            <div class="project-body">
+              <div class="project-badge-row">
+                <span class="status-badge dev">In Development</span>
+              </div>
+              <h3 class="project-title">Merkey Forge</h3>
+              <p class="project-desc">
+                SaaS platform that uses a multi-agent AI system to automatically generate brand-consistent marketing materials for Nigerian SMEs, separating AI backdrops from code-rendered text overlays.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">AI</span>
+                <span class="project-tag">Next.js</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">Supabase</span>
+                <span class="project-tag">Google Imagen</span>
+              </div>
+              <span class="project-btn dev">In Development</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7 — FULL-WIDTH LIME CTA BLOCK -->
+    <section class="lime-cta-section">
+      <div class="lime-cta-container">
+        <span class="lime-cta-eyebrow">CONNECT</span>
+        <h2 class="lime-cta-heading">
+          <div>Got an Idea?</div>
+          <div>Let's Build It for Africa.</div>
+        </h2>
+        <p class="lime-cta-subtext">
+          I'm open to collaborations, freelance projects, and conversations about Africa-first technology.
+        </p>
+        <a href="#contact" class="lime-cta-btn">SEND A MESSAGE &rarr;</a>
+      </div>
+    </section>
+
+    <!-- SECTION 8 — CONTACT -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        
+        <!-- Left column: Details & socials -->
+        <div class="contact-left">
+          <span class="eyebrow">CONTACT</span>
+          <h2 class="section-heading">Let's Build Something</h2>
+          <p class="contact-body">
+            I'm open to collaborations, freelance projects, and conversations about Africa-first tech. Reach out using the form, or follow my work online.
+          </p>
+
+          <!-- Contact items stacked -->
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+              <span class="label">Location:</span>
+              <span class="value">Nigeria</span>
+            </div>
+            <div class="contact-info-item">
+              <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+              <span class="label">Email:</span>
+              <span class="value">m.muhammad.merkey@gmail.com</span>
+            </div>
+          </div>
+
+          <!-- Social circular icon row -->
+          <div class="contact-social-row">
+            <!-- TODO: Add GitHub profile URL -->
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <!-- TODO: Add LinkedIn profile URL -->
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <!-- TODO: Add Twitter/X profile URL -->
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="Twitter/X">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right column: Formspree Contact Form -->
+        <!-- TODO: Add Formspree form ID in action below -->
+        <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="contact-form">
+          <div class="form-grid-2">
+            <input type="text" name="name" required placeholder="Your Name" class="form-input">
+            <input type="email" name="email" required placeholder="name@domain.com" class="form-input">
+          </div>
+          <textarea name="message" required placeholder="Hi Muhammad, let's build..." class="form-input"></textarea>
+          <button type="submit" class="form-submit-btn">SEND MESSAGE</button>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- SECTION 9 — FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        &copy; 2025 <span>Muhammad</span> · Merkey
+      </div>
+      <div class="footer-right">
+        Built with plain HTML, CSS & JS
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
